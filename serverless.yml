@@ -55,6 +55,9 @@ provider:
       Resource: arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.CONNECTIONS_TABLE}
 
 custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
   topicName: imagesTopic-${self:provider.stage}
   documentation:
     api:
