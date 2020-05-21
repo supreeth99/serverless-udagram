@@ -1,6 +1,6 @@
 {
   "name": "service-10-udagram-app",
-  "version": "1.0.0", 
+  "version": "1.0.0",
   "description": "Serverless webpack example using Typescript",
   "main": "handler.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "elasticsearch": "^16.7.1",
     "http-aws-es": "^6.0.0",
     "jimp": "^0.12.1",
-    "source-map-support": "^0.5.10"
+    "source-map-support": "^0.5.10",
+    "uuid": "^8.0.0"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.17",
